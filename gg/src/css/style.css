@@ -1,0 +1,63 @@
+body {
+    background-color:  #B4C5CE;
+}
+
+.main {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #fff; 
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgba(0,0,0, .15);   
+}
+
+.main__inp {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.main__addForm {
+    width: 500px;
+    margin: 0 auto;
+}
+.tag__tlist {
+    font-size: 20px;
+    width: 1440px;
+    margin: 20px auto;
+    background-color: #fff; 
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+}
+.tag__box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 170px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #CFE5A0;
+    box-shadow: 15px 15px 30px  #B4C5CE;
+}
+.tag__name {
+    color: black;
+    padding-left: 10px;
+}
+.tag__del {
+    width: 10px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    cursor: pointer;
+}
+.bub {
+    display: block;
+    background-color: #E74C43;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
