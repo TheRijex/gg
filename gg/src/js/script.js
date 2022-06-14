@@ -40,8 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
         
     if (localStorage.getItem('localList')) {
-        console.log(localStorage.getItem('localList'));
-
         localStorage.getItem('localList').split(',').forEach((item) => {
             tagDB.fullPulOfTags = item;
         });
