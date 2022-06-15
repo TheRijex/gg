@@ -90,9 +90,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         document.querySelectorAll('.tag__del').forEach((btn, i) => {
             btn.addEventListener('click', () => {
-                btn.parentElement.remove();
-                tagDB.tags.splice(i, 1);
-                createTagList(tags, parent);
+                if (tagDB.privatStat) {
+                    btn.parentElement.remove();
+                    tagDB.tags.splice(i, 1);
+                    createTagList(tags, parent);
+                }
             });
         });
     }
